@@ -72,5 +72,5 @@ This will create three random graph files in the same folder:
 
 Each file contains:
 
-- The first line: number of nodes and edges (`n m`)
-- The next `m` lines: list of edges (1-based indexed)
+- The first line: number of vertices and edges (`n m`)
+- The next `m` lines: pair of vertex `u` and `v`, which shows that there is an edge between them (1-based indexed)
