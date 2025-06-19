@@ -43,10 +43,12 @@ Navigate to the data/random/ folder and run the setup script:
 
 ```bash
 cd data/random
-./setup_boost.sh
+bash setup_boost.sh
 ```
 
 ### 3. Compile the Generator
+
+Compile the generator using -O2 flag:
 
 ```bash
 g++ -std=c++20 -O2 -Iboost generate_random.cpp -o generate_random
@@ -54,7 +56,7 @@ g++ -std=c++20 -O2 -Iboost generate_random.cpp -o generate_random
 
 ### 4. Generate Random Graph (Erdős–Rényi)
 
-Run
+Run the generator using:
 
 ```bash
 ./generate_random

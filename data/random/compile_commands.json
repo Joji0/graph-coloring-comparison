@@ -1,7 +1,0 @@
-[
-  {
-    "directory": "/Users/jojikris/Desktop/Git/graph-coloring-comparison/data/random",
-    "command": "g++ -std=c++20 -Wall -Wno-error=header generate_random.cpp -o generate_random",
-    "file": "generate_random.cpp"
-  }
-]
