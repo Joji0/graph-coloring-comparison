@@ -1,0 +1,3 @@
+[submodule "data/random/boost"]
+	path = data/random/boost
+	url = https://github.com/boostorg/boost.git
