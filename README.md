@@ -74,3 +74,55 @@ Each file contains:
 
 - The first line: number of vertices and edges (`n m`)
 - The next `m` lines: pair of vertex `u` and `v`, which shows that there is an edge between them (1-based indexed)
+
+## ▶️ How to Generate Other Type of Graph
+
+### 1. Navigate to the Data Folder
+
+Navigate to the data/{graph-type}/ folder:
+
+```bash
+cd data/{graph-type}
+```
+
+### 2. Compile the Generator
+
+Compile the generator:
+
+```bash
+g++ -std=c++20 -O2 generate_{graph-type}.cpp -o generate_{graph-type}
+```
+
+### 3. Generate Graph Type
+
+Run the generator using:
+
+```bash
+./generate_{graph-type}
+```
+
+## 📊 How to Benchmark
+
+### 1. Navigate to the Benchmarker Folder
+
+Navigate to the benchmarker/ folder:
+
+```bash
+cd benchmarker
+```
+
+### 2. Compile the Benchmarker
+
+Compile the benchmarker:
+
+```bash
+g++ -std=c++20 -O2 benchmarker_{algorithm}_{graph-type}.cpp -o benchmarker_{algorithm}_{graph-type}
+```
+
+### 3. Run the Benchmarker
+
+Run the benchmarker using:
+
+```bash
+./benchmarker_{algorithm}_{graph-type}
+```
