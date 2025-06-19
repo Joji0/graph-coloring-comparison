@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/Users/jojikris/Desktop/Git/graph-coloring-comparison/benchmarker",
+    "command": "g++ -std=c++20 -Wall -Wno-error=header benchmarker_greedy_crown.cpp -o benchmarker_greedy_crown",
+    "file": "benchmarker_greedy_crown.cpp"
+  }
+]

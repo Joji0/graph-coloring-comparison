@@ -10,8 +10,8 @@ using namespace boost;
 using namespace std;
 
 int main() {
-    for (int n : {50, 100, 200}) {
-        double p = 0.5;
+    for (int n : {5, 25, 100}) {
+        double p = 0.2;
         mt19937 gen(time(0));
 
         typedef adjacency_list<vecS, vecS, undirectedS> Graph;

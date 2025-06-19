@@ -66,9 +66,9 @@ Run the generator using:
 
 This will create three random graph files in the same folder:
 
-- `random_n50_boost.txt`
-- `random_n100_boost.txt`
-- `random_n200_boost.txt`
+- `random_n50.txt`
+- `random_n100.txt`
+- `random_n200.txt`
 
 Each file contains:
 
