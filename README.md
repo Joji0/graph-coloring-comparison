@@ -48,7 +48,7 @@ bash setup_boost.sh
 
 ### 3. Compile the Generator
 
-Compile the generator using -O2 flag:
+Compile the generator:
 
 ```bash
 g++ -std=c++20 -O2 -Iboost generate_random.cpp -o generate_random
@@ -61,3 +61,16 @@ Run the generator using:
 ```bash
 ./generate_random
 ```
+
+### 5. 📁 Output
+
+This will create three random graph files in the same folder:
+
+- `random_n50_boost.txt`
+- `random_n100_boost.txt`
+- `random_n200_boost.txt`
+
+Each file contains:
+
+- The first line: number of nodes and edges (`n m`)
+- The next `m` lines: list of edges (1-based indexed)
