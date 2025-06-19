@@ -18,7 +18,7 @@ The experiments were conducted as part of an academic study comparing these algo
 
 All programs were written in **C++20** and compiled using the **GNU Compiler Collection (g++)** with optimization flag `-O2`. Benchmarks were conducted on a **MacBook Pro (Apple Silicon M4, 16GB RAM)**.
 
-## ▶️ How to Run (Step by Step)
+## ▶️ How to Generate Random Graph (Erdős–Rényi)
 
 Follow these steps to compile and run the program for generating random graphs:
 
@@ -27,7 +27,7 @@ Follow these steps to compile and run the program for generating random graphs:
 Make sure to include the Boost submodule:
 
 ```bash
-git clone --recurse-submodules https://github.com/your-username/graph-coloring-comparison.git
+git clone --recurse-submodules https://github.com/Joji0/graph-coloring-comparison.git
 cd graph-coloring-comparison
 ```
 
